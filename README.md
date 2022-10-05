@@ -9,5 +9,7 @@ Questa è una documentazione che aiuta a migliorare l'assistenza </br>
   <a href="#">Apertura turno</a> </br>
   <a href="#">Sostituzione terminale principale</a> </br>
   </div>
-
+<form action="https://google.com">
+    <input type="submit" value="Go to Google" />
+</form>
   
