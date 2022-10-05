@@ -9,15 +9,25 @@ Questa è una documentazione che aiuta a migliorare l'assistenza </br>
   <a href="#">Apertura turno</a> </br>
   <a href="#">Sostituzione terminale principale</a> </br>
   </div>
- <!-- Add icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Driver RTS bloccato')">Driver RTS bloccato</button>
+  <button class="tablinks" onclick="openCity(event, 'Apertura turno')">Apertura turno</button>
+  <button class="tablinks" onclick="openCity(event, 'Sostituzione terminale principale')">Sostituzione terminale principale</button>
+</div>
 
-<div class="icon-bar">
-  <a class="active" href="#"><i class="fa fa-home"></i></a>
-  <a href="#"><i class="fa fa-search"></i></a>
-  <a href="#"><i class="fa fa-envelope"></i></a>
-  <a href="#"><i class="fa fa-globe"></i></a>
-  <a href="#"><i class="fa fa-trash"></i></a>
+<div id="Driver RTS bloccato" class="tabcontent">
+  <h3>Driver RTS bloccato</h3>
+  <p>Chiudere e riparire driver.</p>
+</div>
+
+<div id="Apertura turno" class="tabcontent">
+  <h3>Apertura turno</h3>
+  <p>Cliccare sul bottone "Apri turno".</p>
+</div>
+
+<div id="Sostituzione terminale principale" class="tabcontent">
+  <h3>Sostituzione terminale principale</h3>
+  <p>Copiare dal pc da sostituire la cartella CashServer.</p>
 </div>
 
   
