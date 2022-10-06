@@ -11,6 +11,7 @@ Questa è una documentazione che aiuta a migliorare l'assistenza </br>
   <a href="#">Apertura turno</a> </br>
   <a href="#">Sostituzione terminale principale</a> </br>
   <a href="#">Installazione WinEPTS</a> </br>
+  <a href="#">Exit</a> </br>
  
  </div>
   
